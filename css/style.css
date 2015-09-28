@@ -1,0 +1,52 @@
+/*Sticky Footer*/
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+}
+
+/*Custom Font Styling*/
+h1, h2, h3, h4, h5 {
+    font-family: 'Quicksand', sans-serif;
+}
+.brand-logo {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*Custom Color Styling*/
+.primary {
+    background-color: #695986 !important;
+}
+.secondary {
+    background-color: #252122 !important;
+}
+.primary-text {
+    color: #695986 !important;
+}
+.secondary-text {
+    color: #252122 !important;
+}
+
+/*Slider Custom Styling*/
+.slider .indicators .indicator-item.active {
+    background-color: #695986;
+}
+
+/*Custom Form Styling*/
+.input-field input[type=text]:focus + label {
+    color: #695986;
+}
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #695986;
+    box-shadow: 0 1px 0 0 #695986;
+}
+input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #695986;
+    box-shadow: 0 1px 0 0 #695986;
+}
+input[type=text]:focus:not([readonly]) + label, input[type=password]:focus:not([readonly]) + label, input[type=email]:focus:not([readonly]) + label, input[type=url]:focus:not([readonly]) + label, input[type=time]:focus:not([readonly]) + label, input[type=date]:focus:not([readonly]) + label, input[type=datetime-local]:focus:not([readonly]) + label, input[type=tel]:focus:not([readonly]) + label, input[type=number]:focus:not([readonly]) + label, input[type=search]:focus:not([readonly]) + label, textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: #695986;
+}
