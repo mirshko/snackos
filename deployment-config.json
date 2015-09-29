@@ -1,9 +1,0 @@
-{
-    "type": "sftp",
-    "host": "ssh.phx.nearlyfreespeech.net",
-    "username": "jpanora_snackos",
-    "password": "0ky3su7yt",
-    "port": 22,
-    "remotePath": "",
-    "uploadOnSave": false
-}
