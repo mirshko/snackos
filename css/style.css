@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5 {
     background-color: #695986;
 }
 
-/*Custom Form Styling*/
+/*Custom Input Form Styling*/
 .input-field input[type=text]:focus + label {
     color: #695986;
 }

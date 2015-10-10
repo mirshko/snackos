@@ -6,8 +6,8 @@
         "fonts/*",
         "css/*",
         "scss/*",
-        "package.json",
-        "preview.html"
+        "assets/package.json",
+        "assets/preview.html"
     ],
     "homepage": "http://materialdesignicons.com",
     "authors": [
