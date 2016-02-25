@@ -1,0 +1,77 @@
+#pad-me {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.icon-block {
+    padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #fafafa;
+}
+nav ul li a {
+    color: black;
+}
+main {
+    flex: 1 0 auto;
+}
+.rose {
+    background-color: #F7CAC9 !important;
+}
+.serenity {
+    background-color: #8CA4CF !important;
+}
+.text-rose {
+    color: #F7CAC9 !important;
+}
+.text-serenity {
+    color: #8CA4CF !important;
+}
+p {
+    color: #000000 !important;
+}
+.gggrey {
+    color: #000000 !important;
+}
+.slider .indicators .indicator-item.active {
+    background-color: #F7CAC9;
+}
+
+.slider .indicators .indicator-item {
+  background-color: #1a1a1a;
+}
+
+
+.dropdown-content li > a, .dropdown-content li > span {
+    font-size: 16px;
+    color: #000000;
+    display: block;
+    line-height: 22px;
+    padding: 14px 16px;
+}
+nav .brand-logo {
+    position: absolute;
+    color: #8CA4CF;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+    white-space: nowrap;
+}
+.img main {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+}
